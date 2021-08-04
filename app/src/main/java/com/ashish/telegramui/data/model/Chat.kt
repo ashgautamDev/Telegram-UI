@@ -1,11 +1,11 @@
-package com.ashish.telegramui.data
+package com.ashish.telegramui.data.model
 
-data class Model(
+data class Chat(
 
     val name :String ,
     val image : String ,
     val lastMessage : String,
     val lastUpdate : String ,
-    val unreadMessage : Int = 0,
+    val unreadMessage : String = "0",
     val onMute : Boolean = false ,
 )
